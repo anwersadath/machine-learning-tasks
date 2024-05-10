@@ -1,1 +1,42 @@
-
+ML - Task4 - Regression
+Problem Description
+A Chinese automobile company aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to give competition to their US and European counterparts. They have contracted an automobile consulting company to understand the factors on which the pricing of cars depends. Specifically, they want to understand the factors affecting the pricing of cars in the American market, since those may be very different from the Chinese market. Essentially, the company wants to know:
+• Which variables are significant in predicting the price of a car
+• How well those variables describe the price of a car
+Based on various market surveys, the consulting firm has gathered a large dataset of different types of cars across the American market.
+Business Goal
+You are required to model the price of cars with the available independent variables. It will be used by the management to understand how exactly the prices vary with the independent variables. They can accordingly manipulate the design of the cars, the business strategy etc. to meet certain price levels. Further, the model will be a good way for the management to
+understand the pricing dynamics of a new market.
+Dataset:  Data
+Dear students,
+Apply any 5 algorithms to the regression problem provided.
+For example:
+Linear Regression
+Decision Tree Regressor
+Random Forest Regressor
+Gradient Boosting Regressor
+Support Vector Regressor
+Rootmap:
+1. Understand problem statement
+2. Import necessary libraries and data
+3.  Check the data
+Info()
+Describe((
+Isnull()
+Duplicated()
+Df. Columns
+Length of unique values in each column.
+4. Data preprocessing
+Drop car id
+Find unique values in categorical or count plot
+extract company name from car name and address this new col to df also remove car name column.
+There are spelling mistakes in company name. Treat this.
+Label encoding all the categorical columns
+Outliers detection and removal( if present)
+5. Feature selection
+Find correlation matrix
+Remove multicolinearity (remove features with High correlation .85 to 1)
+6. Data splitting
+Test, train
+7. Model selection and implementation
+8. Model evaluation
