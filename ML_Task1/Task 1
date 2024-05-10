@@ -1,4 +1,4 @@
-ML - Task1- Measures of Descriptive statistics-Central Tendency, spread
+# ML - Task1- Measures of Descriptive statistics-Central Tendency, spread
 You are given house_price.csv which contains property prices in the city of Bangalore. You need to examine price per square feet do the following:
 Detect the outliers and remove it using:
  Mean Function
